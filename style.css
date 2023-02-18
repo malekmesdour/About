@@ -113,7 +113,7 @@ body.is-preload #footer {
   width: 100%;
   height: 2px;
   background: -webkit-gradient(linear, right top, left top, from(rgba(43, 8, 8, 0)), to(#1a95e0));
-  background: linear-gradient(to left, rgba(43, 8, 8, 0), #d92626);
+  background: linear-gradient(to left, rgba(43, 8, 8, 0), #1a95e0);
   -webkit-animation: 2s animateTop linear infinite;
           animation: 2s animateTop linear infinite;
 }
@@ -135,7 +135,7 @@ body.is-preload #footer {
   height: 100%;
   width: 2px;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 8, 8, 0)), to(#1a95e0));
-  background: linear-gradient(to top, rgba(43, 8, 8, 0), #d92626);
+  background: linear-gradient(to top, rgba(43, 8, 8, 0), #1a95e0);
   -webkit-animation: 2s animateRight linear -1s infinite;
           animation: 2s animateRight linear -1s infinite;
 }
@@ -157,7 +157,7 @@ body.is-preload #footer {
   width: 100%;
   height: 2px;
   background: -webkit-gradient(linear, left top, right top, from(rgba(43, 8, 8, 0)), to(#1a95e0));
-  background: linear-gradient(to right, rgba(43, 8, 8, 0), #d92626);
+  background: linear-gradient(to right, rgba(43, 8, 8, 0), #1a95e0);
   -webkit-animation: 2s animateBottom linear infinite;
           animation: 2s animateBottom linear infinite;
 }
@@ -179,7 +179,7 @@ body.is-preload #footer {
   height: 100%;
   width: 2px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 8, 8, 0)), to(#1a95e0));
-  background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #d92626);
+  background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #1a95e0);
   -webkit-animation: 2s animateLeft linear -1s infinite;
           animation: 2s animateLeft linear -1s infinite;
 }
