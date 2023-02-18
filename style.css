@@ -76,7 +76,7 @@ body.is-preload #footer {
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
   overflow: hidden;
-  color: #f7d4d4;
+  color: #e8e9ed;
   font-size: 13px;
   letter-spacing: 1.8px;
   text-align: center;
@@ -182,4 +182,15 @@ body.is-preload #footer {
   background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #1a95e0);
   -webkit-animation: 2s animateLeft linear -1s infinite;
           animation: 2s animateLeft linear -1s infinite;
+}
+
+@keyframes animateLeft {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
 }
