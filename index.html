@@ -1,94 +1,35 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
+<html>
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="msapplication-TileColor" content="#ffffff" />
-<meta name="theme-color" content="#ffffff" /> <title>Ryuku | Offensive Research</title>
-<link rel="icon" type="image/x-icon" href="favico.jpg">
-<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    body{
-    background-image:url('backg.jpg');
-    height: 700px;
-    width:100%;
-    background-size:cover;
-}
-    .new{
-      background-color: #222225;
-  }
-    .components-grid {
-      display: grid;
-      grid-column-gap: 1.4em;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-    }
-
-    .image-grid {
-      display: grid;
-      grid-template-rows: auto;
-      display: grid;
-      grid-gap: 1em;
-      grid-template-rows: auto;
-      grid-template-columns: repeat(
-        auto-fit,
-        minmax(calc(var(--page-width) / 12), 1fr)
-      );
-    }
-
-    @media only screen and (min-width: 70em) {
-      .components-grid {
-        grid-template-columns: 3fr 9fr;
-      }
-    }
-  </style>
-
-    <style>
-      :root {
-        --global-font-size: 15px;
-        --global-line-height: 1.4em;
-        --global-space: 10px;
-        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
-          serif;
-        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
-          serif;
-        --background-color: #222225;
-        --page-width: 60em;
-        --font-color: #e8e9ed;
-        --invert-font-color: #222225;
-        --secondary-color: #a3abba;
-        --tertiary-color: #a3abba;
-        --primary-color: #62c4ff;
-        --error-color: #ff3c74;
-        --progress-bar-background: #3f3f44;
-        --progress-bar-fill: #62c4ff;
-        --code-bg-color: #3f3f44;
-        --input-style: solid;
-        --display-h1-decoration: none;
-      }
-    </style>
-  </head>
-  <body class="terminal">
+  <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+  <link rel="icon" type="image/x-icon" href="ico.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Ryuku | Offensive Research</title>
+</head>
+<body id="hackz">
+  <div id="particles-js"></div>
     <div class="container">
-  <div class="terminal-nav">
-    <header class="terminal-logo">
-      <div class="logo terminal-prompt"><a class="no-style">$ The World Is Yours</a></div>
-    </header>
-
-      </ul>
-    </nav>
-  </div>
-
-<section>
-<div class="terminal-card">
-    <header>whoami</header>
-    <div class="new">
-    <center><img  src="https://pbs.twimg.com/profile_images/1623014349714427929/GwDMlSvQ_400x400.jpg" alt="avatar" style="border-radius: 50%;width:128px;height;128px;"><h1>Malek "Ryuku" Mesdour</h1><p>Security Researcher</p><p> "All warfare is based on deception" <b> 孫子, The Art of War.</b>
-</p>
-   <a href="https://twitter.com/MesdourMalek" class='fa fa-twitter'></a><br><button class="btn btn-error btn-ghost"><a href="mailto:malekmesdourr@gmail.com">Reach Me</a></button></center>
-    </div>
-  </div></section>
+      <header><div class="logo terminal-prompt"><a class="Pulse">ghost@ryuku:~$ cat README.md</a></div></header>
+        <div class="terminal-card">
+      <header style="color: #e8e9ed;">whoami</header>
+          <div class="terminal panel">
+      <center >
+        <img src="profile.jpeg" alt="avatar" style="border-radius: 50%;width:126px;height;116px;">
+          <h1>Malek "Ryuku" Mesdour</h1><p>Security Researcher, Pentester & Developer</p>
+            <a href="https://twitter.com/MesdourMalek"><img src="twitter.png" style="50%;width:16px;height;16px;"></a><br><a href="mailto:malekmesdourr@gmail.com" class="animated-button1"><span></span><span></span><span></span><span></span>Contact</a>
+      </center>
+          </div>
+        </div><br><h4>Old Habits:</h4>
+            <ul>
+                <li><a href="https://www.instagram.com/malek_mesdour/">"Vincit qui se vincit"</a></li>
+                <li><a href="https://www.tiktok.com/@malekmesdour_">"Defectum clavis est ad successum; Quisque error aliquid docet."</a></li><br>
+                <li class="terminal-prompt" id='magic'>HACK  <input class="color" type="color" name="color" value="#222225"></li>
+            </ul>
+        </div> 
+      <footer id="footer"><p class="copyright">inspired by evil, guided by wisdom.</p></footer>      
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
