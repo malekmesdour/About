@@ -1,4 +1,4 @@
-body { --background-color: #222225; --font-color: #e8e9ed; --secondary-color: #a3abba; --primary-color: #62c4ff; --display-h1-decoration: none; }
+body { --background-color: #000000; --font-color: #e8e9ed; --secondary-color: #a3abba; --primary-color: #62c4ff; --display-h1-decoration: none; }
 
 .color {
 	cursor: pointer;
